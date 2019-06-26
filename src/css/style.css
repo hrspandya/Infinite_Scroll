@@ -1,0 +1,54 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/** Top Navigation Css ~~~~~~~~~~~~~~~~~~~~~~   */
+.topnav {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 0 20px;
+  height: 3em;
+  width: 100%;
+  background: #663AB7;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.topnav a.icon,
+.topnav .title {
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #fff;
+}
+
+.topnav a.icon {
+  flex: 0 0 auto;
+}
+
+.topnav .title {
+  flex: 1 1 auto;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/**   ~~~~~~~~~~~~~~~~~~~~~~   */
+
+.message-list {
+  overflow-y: hidden;
+  margin-top: 3em;
+}
+
+
